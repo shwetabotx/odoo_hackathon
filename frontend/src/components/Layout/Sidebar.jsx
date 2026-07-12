@@ -51,7 +51,7 @@ export default function Sidebar() {
         ))}
       </nav>
       <div className="px-4 py-4 border-t border-white/5 text-[11px] text-slate-600">
-        TransitOps © 2026 · RBAC Enabled
+        TransitOps By Shweta Jadeja © 2026 · RBAC Enabled
       </div>
     </aside>
   );
