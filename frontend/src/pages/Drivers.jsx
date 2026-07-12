@@ -19,8 +19,15 @@ export default function Drivers() {
   const [form, setForm] = useState(EMPTY);
   const [error, setError] = useState("");
 
-  const load = () => api.get("/drivers", { params: { search } }).then((res) => setDrivers(res.data));
-  useEffect(load, [search]);
+  const load = () =>
+    api
+      .get("/drivers", { params: { search } })
+      .then((res) => setDrivers(res.data))
+      .catch((err) => setError(err.response?.data?.message || "Could not load drivers."));
+
+  useEffect(() => {
+    load();
+  }, [search]);
 
   const submit = async (e) => {
     e.preventDefault();
