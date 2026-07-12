@@ -54,7 +54,7 @@ export default function Login() {
             ))}
           </ul>
         </div>
-        <p className="text-[11px] text-slate-600">TransitOps © 2026 · RBAC Enabled</p>
+        <p className="text-[11px] text-slate-600">TransitOps By Shweta Jadeja © 2026 · RBAC Enabled</p>
       </div>
 
       <div className="flex-1 flex items-center justify-center bg-slate-50 p-6">
