@@ -94,8 +94,8 @@ export default function Login() {
           <button className="btn-primary w-full" disabled={busy}>{busy ? "Signing in..." : "Sign In"}</button>
 
           <p className="text-xs text-slate-400 mt-6 leading-relaxed">
-            No account yet? Run <code className="bg-slate-200 px-1 rounded">npm run seed</code> in the backend
-            for demo logins, or <a className="text-brand-600 font-medium" href="/register">register a new user</a>.
+           
+          <a className="text-brand-600 font-medium" href="/register">register a new user</a>.
           </p>
         </form>
       </div>
