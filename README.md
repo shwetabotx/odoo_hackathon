@@ -1,6 +1,6 @@
 # TransitOps — Smart Transport Operations Platform
 
-# live website - https://demo-project-frontend-a8no.onrender.com/
+# live website  - https://demo-project-frontend-a8no.onrender.com/
 # login credintials - 
 
 Fleet Manager → Dispatcher → Safety Officer → Financial Analyst
@@ -146,13 +146,3 @@ just mirror it for UX, so this can't be bypassed by editing the client.
 - Login lockout: 5 failed attempts locks the account for 15 minutes.
 - CSV export of all trips is available from the Analytics page.
 
-## Notes / things you may want to extend
-
-- PDF export, email reminders for expiring licenses, dark mode, and vehicle
-  document uploads were bonus items in the brief and are not included —
-  happy to add any of them next.
-- Revenue is entered manually per trip when it's marked Completed (used for
-  the ROI and monthly revenue chart) since the spec didn't define a fare/pricing
-  model.
-- `capacity` on Vehicle can be `kg` or `Ton`; the backend normalizes to kg
-  for the cargo-weight comparison.
