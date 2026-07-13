@@ -1,5 +1,15 @@
 # TransitOps — Smart Transport Operations Platform
 
+#live website - https://demo-project-frontend-a8no.onrender.com/
+#login credintials - 
+Fleet Manager → Dispatcher → Safety Officer → Financial Analyst
+passwords: password123 
+meera@transitops.in / Fleet manager    
+raven@transitops.in / Dispatcher 
+karan@transitops.in (Safety Officer) 
+anjali@transitops.in (Financial Analyst) 
+
+
 A full MERN-stack rebuild of the TransitOps hackathon brief: vehicle registry,
 driver & safety profiles, trip dispatcher with lifecycle rules, maintenance
 workflow, fuel & expense tracking, analytics, and role-based access control
